@@ -1772,7 +1772,7 @@
 		(instances
 			(project "E-Bike PCB"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "6")
+					(page "10")
 				)
 			)
 		)
@@ -1821,7 +1821,7 @@
 		(instances
 			(project "E-Bike PCB"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
-					(page "7")
+					(page "11")
 				)
 			)
 		)

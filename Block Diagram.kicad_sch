@@ -138,20 +138,6 @@
 		(uuid "5911023f-b729-4638-87b7-c8fa6a2da4ad")
 	)
 	(rectangle
-		(start 71.12 99.06)
-		(end 101.6 114.3)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 200 0 0.5019607843)
-		)
-		(fill
-			(type color)
-			(color 255 200 0 0.5019607843)
-		)
-		(uuid "6d27083e-baf9-459e-b0dc-430395e74362")
-	)
-	(rectangle
 		(start 150.495 87.249)
 		(end 151.13 88.011)
 		(stroke
@@ -235,20 +221,6 @@
 		(uuid "8fb245d6-696e-46a9-aee0-fc71b1bd2811")
 	)
 	(rectangle
-		(start 70.358 106.299)
-		(end 70.993 107.061)
-		(stroke
-			(width 0.25)
-			(type default)
-			(color 200 50 50 1)
-		)
-		(fill
-			(type color)
-			(color 200 50 50 1)
-		)
-		(uuid "926c14cd-51d6-4183-83aa-3acd3f364634")
-	)
-	(rectangle
 		(start 328.422 234.95)
 		(end 399.542 235.712)
 		(stroke
@@ -275,20 +247,6 @@
 			(color 26 179 18 1)
 		)
 		(uuid "97242065-2f97-4ca3-afed-c927195a53b5")
-	)
-	(rectangle
-		(start 101.727 106.299)
-		(end 102.362 107.061)
-		(stroke
-			(width 0.25)
-			(type default)
-			(color 212 0 32 1)
-		)
-		(fill
-			(type color)
-			(color 212 0 32 1)
-		)
-		(uuid "b511ed02-73dc-4aca-8856-32e3a0e7b2bd")
 	)
 	(rectangle
 		(start 234.95 91.44)
@@ -332,20 +290,6 @@
 		)
 		(uuid "c0f61f09-5d95-4ea6-baa5-6b9b5ba11fd4")
 	)
-	(circle
-		(center 54.61 106.68)
-		(radius 1.016)
-		(stroke
-			(width 0)
-			(type default)
-			(color 198 71 194 1)
-		)
-		(fill
-			(type color)
-			(color 198 71 194 1)
-		)
-		(uuid "c30887ce-e8b0-4e61-8035-f856b5a10339")
-	)
 	(rectangle
 		(start 328.422 201.93)
 		(end 399.542 202.692)
@@ -362,7 +306,7 @@
 	)
 	(rectangle
 		(start 71.12 80.01)
-		(end 101.6 95.25)
+		(end 101.6 114.3)
 		(stroke
 			(width 0)
 			(type default)
@@ -416,7 +360,7 @@
 		)
 		(uuid "fb962045-e3ad-427d-8e13-7189ce103507")
 	)
-	(text "+??V"
+	(text "+56V"
 		(exclude_from_sim no)
 		(at 49.53 76.2 0)
 		(effects
@@ -461,22 +405,7 @@
 		)
 		(uuid "7cb39811-7e9e-4b6a-b7ed-352cfdbf227b")
 	)
-	(text "+??V"
-		(exclude_from_sim no)
-		(at 119.38 95.25 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.286 2.286)
-				(thickness 0.4572)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify right bottom)
-		)
-		(uuid "ad6e3829-3684-4af1-9a28-ced841b0c880")
-	)
-	(text "+??V"
+	(text "+5V"
 		(exclude_from_sim no)
 		(at 120.65 76.2 0)
 		(effects
@@ -1353,30 +1282,6 @@
 		)
 		(uuid "be16dbe1-3641-4384-b37c-5e66a5e92800")
 	)
-	(text_box "Block\nDescription"
-		(exclude_from_sim no)
-		(at 73.66 101.6 0)
-		(size 25.4 10.16)
-		(margins 1.7144 1.7144 1.7144 1.7144)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Arial")
-				(size 2.286 2.286)
-				(thickness 0.254)
-				(bold yes)
-				(color 0 0 0 1)
-			)
-			(justify left top)
-		)
-		(uuid "c57b2792-b5b6-4248-8bcf-18760935fbf0")
-	)
 	(text_box "Port Name"
 		(exclude_from_sim no)
 		(at 276.86 113.03 0)
@@ -1594,17 +1499,6 @@
 	)
 	(polyline
 		(pts
-			(xy 70.612 106.68) (xy 54.61 106.68)
-		)
-		(stroke
-			(width 1.016)
-			(type default)
-			(color 198 71 194 1)
-		)
-		(uuid "0078cbf7-9098-45ec-96f3-0b36f648924d")
-	)
-	(polyline
-		(pts
 			(xy 89.662 120.65) (xy 85.852 120.65)
 		)
 		(stroke
@@ -1649,17 +1543,6 @@
 	)
 	(polyline
 		(pts
-			(xy 116.84 96.52) (xy 116.84 106.68)
-		)
-		(stroke
-			(width 1.016)
-			(type default)
-			(color 212 0 32 1)
-		)
-		(uuid "22ecdb21-cb6c-4fea-8215-9ca181dc7654")
-	)
-	(polyline
-		(pts
 			(xy 85.852 114.808) (xy 85.852 137.16)
 		)
 		(stroke
@@ -1682,17 +1565,6 @@
 	)
 	(polyline
 		(pts
-			(xy 120.65 96.52) (xy 116.84 96.52)
-		)
-		(stroke
-			(width 1.016)
-			(type default)
-			(color 212 0 32 1)
-		)
-		(uuid "3ad61ad5-2501-40ac-9bf7-e665e25219ef")
-	)
-	(polyline
-		(pts
 			(xy 50.8 77.47) (xy 54.61 77.47)
 		)
 		(stroke
@@ -1701,17 +1573,6 @@
 			(color 198 71 194 1)
 		)
 		(uuid "46995de7-d2ae-43dc-828c-7a85c3a686f0")
-	)
-	(polyline
-		(pts
-			(xy 54.61 87.63) (xy 54.61 96.52)
-		)
-		(stroke
-			(width 1.016)
-			(type default)
-			(color 198 71 194 1)
-		)
-		(uuid "643459a2-2a93-46f1-8503-aa865b67ae0a")
 	)
 	(polyline
 		(pts
@@ -1858,17 +1719,6 @@
 	)
 	(polyline
 		(pts
-			(xy 116.84 96.52) (xy 113.03 96.52)
-		)
-		(stroke
-			(width 1.016)
-			(type default)
-			(color 212 0 32 1)
-		)
-		(uuid "b6c0a1ce-c65c-4ea7-8db7-d4822d92fceb")
-	)
-	(polyline
-		(pts
 			(xy 85.852 120.65) (xy 82.042 120.65)
 		)
 		(stroke
@@ -1899,28 +1749,6 @@
 			(color 162 155 0 1)
 		)
 		(uuid "e522b6d4-c3ef-41d5-9de8-677c57429daf")
-	)
-	(polyline
-		(pts
-			(xy 102.108 106.68) (xy 116.84 106.68)
-		)
-		(stroke
-			(width 1.016)
-			(type default)
-			(color 212 0 32 1)
-		)
-		(uuid "e77019d6-1773-46ed-953e-95dcf6e77cd6")
-	)
-	(polyline
-		(pts
-			(xy 54.61 96.52) (xy 54.61 106.68)
-		)
-		(stroke
-			(width 1.016)
-			(type default)
-			(color 198 71 194 1)
-		)
-		(uuid "f15951f9-af67-479e-871b-cba1a69ad58a")
 	)
 	(polyline
 		(pts

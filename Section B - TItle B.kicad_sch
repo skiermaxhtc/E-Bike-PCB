@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "POWER CONTROL")
-		(date "2025-01-12")
+		(date "2026-06-15")
 		(rev "${REVISION}")
 		(company "${COMPANY}")
 	)
@@ -307,635 +307,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:BSS123"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BSS123"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BSS123_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BSS123_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Transistor_FET:BSS84"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BSS84"
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-				)
-			)
-			(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
-				(at 5.08 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "P-Channel MOSFET"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "BSS84_0_1"
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BSS84_1_1"
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1786,16 +1157,6 @@
 		)
 		(uuid "f026768c-915f-4378-b3f2-b0a2f2a348b8")
 	)
-	(text "N-MOS"
-		(exclude_from_sim no)
-		(at 259.08 92.456 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "07166526-fe13-46c4-85ef-c8d1fa26d571")
-	)
 	(text "Flexible I/O worked examples"
 		(exclude_from_sim no)
 		(at 265.43 254 0)
@@ -1809,56 +1170,6 @@
 			(href "https://jpieper.com/2022/06/30/flexible-i-o-worked-examples/")
 		)
 		(uuid "16842e9f-eef2-418b-80ee-4eca09c5cd4a")
-	)
-	(text "P-MOS"
-		(exclude_from_sim no)
-		(at 258.826 69.596 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "33b7dc71-88bd-4f90-991f-90773ff1a91f")
-	)
-	(text "G"
-		(exclude_from_sim no)
-		(at 246.634 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "41b86bc1-7807-4758-9a35-db60446451f3")
-	)
-	(text "S"
-		(exclude_from_sim no)
-		(at 252.73 61.976 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8d81eb03-48a1-45bd-bdde-cd50d2a3b0b3")
-	)
-	(text "D"
-		(exclude_from_sim no)
-		(at 252.73 70.358 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "95963777-c5a6-41e3-9245-3a66d56dbbab")
-	)
-	(text "0-3.3V ESP GPIO PIN"
-		(exclude_from_sim no)
-		(at 185.42 68.072 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "97802da2-7480-4075-86ca-1dc0d565a692")
 	)
 	(text "36,4V - 54,6V"
 		(exclude_from_sim no)
@@ -1884,16 +1195,6 @@
 			(justify left bottom)
 		)
 		(uuid "ca73a951-c39c-4a3c-9e12-06e6bc2f3311")
-	)
-	(text "0-3.3V ESP GPIO PIN"
-		(exclude_from_sim no)
-		(at 226.314 85.852 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e927ea43-c9fe-4f30-906a-96d311cf641b")
 	)
 	(text "1,91V - 2,87V"
 		(exclude_from_sim no)
@@ -2110,30 +1411,6 @@
 		)
 		(uuid "904a8349-50c0-42c2-9fb8-b365e5e4dae5")
 	)
-	(text_box "Gear Select Control"
-		(exclude_from_sim no)
-		(at 142.24 109.22 0)
-		(size 167.64 9.525)
-		(margins 1.9049 1.9049 1.9049 1.9049)
-		(stroke
-			(width -0.0001)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(color 162 22 34 1)
-			)
-			(justify bottom)
-		)
-		(uuid "96ca24d3-fb87-492b-b46b-2ff8e6f8597a")
-	)
 	(text_box "High Beam Control"
 		(exclude_from_sim no)
 		(at 231.775 170.815 0)
@@ -2236,52 +1513,16 @@
 		(uuid "219bb7aa-b338-4d06-ae23-8a053e161ffa")
 	)
 	(junction
-		(at 251.46 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50bff573-48ca-40bf-af95-a0abb8c08054")
-	)
-	(junction
-		(at 238.76 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7221d9b2-2b69-4da9-890b-5133934bf7be")
-	)
-	(junction
 		(at 255.27 147.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7e34a5f4-0890-4d0f-b662-b2ad28736a51")
 	)
 	(junction
-		(at 251.46 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "95909282-f8d7-419c-8bf3-c053943c3450")
-	)
-	(junction
-		(at 240.03 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb630d05-7eb7-463d-8849-1fa6f32bd576")
-	)
-	(junction
-		(at 210.82 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c734e567-6185-48b5-a272-be701afc4a70")
-	)
-	(junction
 		(at 264.16 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d74afa2d-0209-43d6-b82e-0d402851bc24")
-	)
-	(junction
-		(at 198.12 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fee45dd9-319c-4d55-899a-ed42de9587b1")
 	)
 	(wire
 		(pts
@@ -2305,26 +1546,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 99.06) (xy 251.46 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "146d18db-0100-4394-ac3a-3533138ec0dd")
-	)
-	(wire
-		(pts
-			(xy 198.12 71.12) (xy 203.2 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2888b473-8455-4125-9280-434aeb65aafb")
-	)
-	(wire
-		(pts
 			(xy 180.34 226.06) (xy 180.34 222.25)
 		)
 		(stroke
@@ -2332,16 +1553,6 @@
 			(type default)
 		)
 		(uuid "2b49535c-d80c-46cd-a1bf-913daba7106e")
-	)
-	(wire
-		(pts
-			(xy 240.03 62.23) (xy 240.03 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f4f9ab6-f937-46a3-a0e9-a69ce8bbc50a")
 	)
 	(wire
 		(pts
@@ -2355,26 +1566,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 71.12) (xy 198.12 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36872639-b109-47f7-8634-fb10e567bf10")
-	)
-	(wire
-		(pts
-			(xy 238.76 88.9) (xy 243.84 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3950e8eb-114f-4d3c-80e5-e1516725e173")
-	)
-	(wire
-		(pts
 			(xy 264.16 212.09) (xy 275.59 212.09)
 		)
 		(stroke
@@ -2382,26 +1573,6 @@
 			(type default)
 		)
 		(uuid "3c10de13-97b8-4392-bc08-ca37815d6dd7")
-	)
-	(wire
-		(pts
-			(xy 238.76 97.79) (xy 238.76 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d7be462-0105-4fa2-b00d-7f93d793d2a3")
-	)
-	(wire
-		(pts
-			(xy 210.82 82.55) (xy 210.82 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "469660f5-f68d-4786-811c-a561790acacd")
 	)
 	(wire
 		(pts
@@ -2425,26 +1596,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 52.07) (xy 251.46 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bc58641-8734-4124-a1d4-4e37ddc0f4ec")
-	)
-	(wire
-		(pts
-			(xy 238.76 90.17) (xy 238.76 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fcbed7b-1178-433d-afd1-03f2077c2b8b")
-	)
-	(wire
-		(pts
 			(xy 275.59 222.25) (xy 275.59 220.98)
 		)
 		(stroke
@@ -2465,16 +1616,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 71.12) (xy 251.46 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ae5b0d3-5b5e-4841-95dc-acf8a663b2b1")
-	)
-	(wire
-		(pts
 			(xy 264.16 152.4) (xy 264.16 161.29)
 		)
 		(stroke
@@ -2482,16 +1623,6 @@
 			(type default)
 		)
 		(uuid "92097c75-56d7-4ee3-af01-7ec440cb3667")
-	)
-	(wire
-		(pts
-			(xy 240.03 66.04) (xy 210.82 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "929d3b43-407a-41f2-8d1e-f305f89f1c69")
 	)
 	(wire
 		(pts
@@ -2505,26 +1636,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 54.61) (xy 240.03 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95c9f7da-2f47-492e-a253-4d71e17c566c")
-	)
-	(wire
-		(pts
-			(xy 238.76 99.06) (xy 251.46 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d3c4e5c-72e3-456b-9b73-a2a57b4fd15b")
-	)
-	(wire
-		(pts
 			(xy 172.72 226.06) (xy 180.34 226.06)
 		)
 		(stroke
@@ -2532,16 +1643,6 @@
 			(type default)
 		)
 		(uuid "a9d05505-e587-41ed-9340-4ab99e5e4a06")
-	)
-	(wire
-		(pts
-			(xy 251.46 48.26) (xy 251.46 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b544e8df-3509-4380-ac4e-5931448a3167")
 	)
 	(wire
 		(pts
@@ -2562,16 +1663,6 @@
 			(type default)
 		)
 		(uuid "b794c684-e723-48ab-8083-06fc2cf1d168")
-	)
-	(wire
-		(pts
-			(xy 198.12 82.55) (xy 210.82 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb1134f4-9679-43f5-bbf2-303900233233")
 	)
 	(wire
 		(pts
@@ -2625,66 +1716,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 88.9) (xy 238.76 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6efc625-6be7-4067-a2eb-08ddae71181e")
-	)
-	(wire
-		(pts
-			(xy 210.82 87.63) (xy 210.82 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9a5852a-7c08-49ac-a705-e3f633c9ab50")
-	)
-	(wire
-		(pts
-			(xy 251.46 104.14) (xy 251.46 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ef81e8a5-e531-4ea7-8f55-def2ae5ed773")
-	)
-	(wire
-		(pts
-			(xy 198.12 78.74) (xy 198.12 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f063129d-90d4-4f55-ac9a-714dcb43feeb")
-	)
-	(wire
-		(pts
-			(xy 240.03 66.04) (xy 243.84 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f203d314-cfcc-42c1-b4f7-266f08647215")
-	)
-	(wire
-		(pts
-			(xy 251.46 52.07) (xy 240.03 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9c94684-6ac5-442a-a9cc-651ab689dde3")
-	)
-	(wire
-		(pts
 			(xy 255.27 158.75) (xy 255.27 161.29)
 		)
 		(stroke
@@ -2723,16 +1754,6 @@
 		)
 		(uuid "28f377cb-3e23-468e-86e7-fbe34d62b3c0")
 	)
-	(label "GearSelect1"
-		(at 193.04 71.12 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a60d1e3-c5a4-4330-b7d4-1412dfb77eef")
-	)
 	(label "HighBeam_PWR-"
 		(at 264.16 139.7 180)
 		(effects
@@ -2752,26 +1773,6 @@
 			(justify right bottom)
 		)
 		(uuid "584187ed-5f5d-4f07-ba9b-5acc681132ce")
-	)
-	(label "GearSelect2"
-		(at 232.41 88.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b17a5c0a-a84f-42f6-b62e-0144932a9398")
-	)
-	(label "MZ_3Speed"
-		(at 251.46 76.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e581eff0-4034-4000-a7f5-a040cc9db777")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -2862,11 +1863,33 @@
 				)
 			)
 		)
+		(property "Config" ""
+			(at 264.16 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 264.16 205.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "cc90a172-3cf2-4dd5-b813-ef2adad1114d")
+			(uuid "2e3cf8dd-3cdd-4102-bda6-f0cd6a15dcab")
 		)
 		(pin "1"
-			(uuid "fe2ec093-6149-4e2a-9022-3fb2e2bac34d")
+			(uuid "d752b9f5-5db7-4b10-9f54-9ae10f143262")
 		)
 		(instances
 			(project "E-Bike PCB"
@@ -2944,90 +1967,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "b3f24a0a-38a9-4977-ac31-95f34d331b36")
+			(uuid "92b5941e-2d31-424a-93b3-b5103d38d6c1")
 		)
 		(instances
 			(project "E-Bike PCB"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 251.46 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "14974ba8-6cf7-48c8-9d79-2b38b28918a7")
-		(property "Reference" "#PWR06"
-			(at 251.46 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 251.46 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 251.46 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c306589-7bf0-4d9b-8c69-393aaec5283a")
-		)
-		(instances
-			(project "E-Bike PCB"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -3122,11 +2067,33 @@
 				)
 			)
 		)
+		(property "Config" ""
+			(at 255.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 255.27 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "99fc1b7e-ba2b-4588-97fb-b4dca92ae6f1")
+			(uuid "5755f1ad-319c-45b5-b659-057cb301d4c6")
 		)
 		(pin "1"
-			(uuid "d8fb0c6c-714d-41e7-a599-055fc44f207f")
+			(uuid "8312a916-4a1b-40fa-b681-2f0f85772a29")
 		)
 		(instances
 			(project "E-Bike PCB"
@@ -3226,11 +2193,33 @@
 				)
 			)
 		)
+		(property "Config" ""
+			(at 264.16 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 264.16 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
-			(uuid "8ce5b062-c409-407a-8064-689b11aa7038")
+			(uuid "ac1a3e99-c9b7-4bcd-a7db-4c5d45f6486e")
 		)
 		(pin "1"
-			(uuid "80f20f9a-548e-49e7-83b6-017a8fc43006")
+			(uuid "0c854257-747a-449f-98a2-204614a4de08")
 		)
 		(instances
 			(project "E-Bike PCB"
@@ -3330,11 +2319,33 @@
 				)
 			)
 		)
+		(property "Config" ""
+			(at 275.59 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "BZT52C3V3"
+			(at 275.59 217.17 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "fc017a7b-dc00-49c1-89c7-995d1f24595a")
+			(uuid "d805a5f1-944a-4d6b-b30f-dd171d9df7ce")
 		)
 		(pin "2"
-			(uuid "211d22a1-a9d0-4bcd-9c79-ccdc8ead5583")
+			(uuid "b9c89f88-7454-4fb0-9a86-ca39eec296ed")
 		)
 		(instances
 			(project "E-Bike PCB"
@@ -3412,7 +2423,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "47859641-85fc-48ca-8db2-4176cadbca17")
+			(uuid "36950cfe-40d1-4209-82ef-ba98798bfd5b")
 		)
 		(instances
 			(project "E-Bike PCB"
@@ -3490,226 +2501,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "266e3397-fab1-4c4b-837a-b01188e4add8")
+			(uuid "2e1131ce-c51d-48b6-b1bd-404dd6511820")
 		)
 		(instances
 			(project "E-Bike PCB"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS84")
-		(at 248.92 66.04 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "599a8f07-3ff0-423c-8579-2860ffb759c2")
-		(property "Reference" "Q4"
-			(at 255.27 67.3101 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS84"
-			(at 255.27 64.7701 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 254 64.135 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://assets.nexperia.com/documents/data-sheet/BSS84.pdf"
-			(at 254 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "-0.13A Id, -50V Vds, P-Channel MOSFET, SOT-23"
-			(at 248.92 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C8492"
-			(at 248.92 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "LBSS84LT1G"
-			(at 248.92 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "35ddfeaa-fbe8-4220-9957-a748267c8d7c")
-		)
-		(pin "2"
-			(uuid "4b9e9f89-fcd2-47bb-90a9-c424b16a97f9")
-		)
-		(pin "3"
-			(uuid "ba763d52-a774-4519-8a13-5715deb10214")
-		)
-		(instances
-			(project "E-Bike PCB"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "Q4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 240.03 58.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5d5d0bbf-5ac9-47f6-86ee-9487c6d346d0")
-		(property "Reference" "R9"
-			(at 242.57 57.1499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 242.57 59.6899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 238.252 58.42 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 240.03 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C25803"
-			(at 240.03 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "0603WAF1003T5E"
-			(at 240.03 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "3c86be45-c9d8-4117-85d2-4d32c523b587")
-		)
-		(pin "1"
-			(uuid "952de32d-361a-4195-9e54-49a33ac06f24")
-		)
-		(instances
-			(project "E-Bike PCB"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -3782,336 +2579,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "0a4bb54c-d65c-4dca-aa99-f82a29be6869")
+			(uuid "577a67da-643f-4615-b6c2-6827418d24b7")
 		)
 		(instances
 			(project "E-Bike PCB"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 238.76 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "781d999a-5535-45c0-8440-38e2250e4fc5")
-		(property "Reference" "R3"
-			(at 241.3 92.7099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 241.3 95.2499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 236.982 93.98 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 238.76 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C25803"
-			(at 238.76 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "0603WAF1003T5E"
-			(at 238.76 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "646585f2-45e6-4d61-91c0-f98c9ff4b76e")
-		)
-		(pin "1"
-			(uuid "39cc79f1-b091-4817-a2e7-e902bab56765")
-		)
-		(instances
-			(project "E-Bike PCB"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS123")
-		(at 248.92 88.9 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90ea5e39-d054-4029-a20b-956804613e1f")
-		(property "Reference" "Q3"
-			(at 255.27 87.6299 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS123"
-			(at 255.27 90.1699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 254 90.805 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf"
-			(at 254 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"
-			(at 248.92 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C8491"
-			(at 248.92 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "LBSS123LT1G"
-			(at 248.92 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "48de82fb-4639-4ea6-a7d8-d906a16d82ef")
-		)
-		(pin "1"
-			(uuid "5bfeec52-ea65-4ce5-9b0d-cfaa4e66b494")
-		)
-		(pin "3"
-			(uuid "035f762a-26ea-45f9-a475-a8be80e8bd93")
-		)
-		(instances
-			(project "E-Bike PCB"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:BSS123")
-		(at 208.28 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "943a8d9b-ed94-49a2-9157-d300173a025d")
-		(property "Reference" "Q5"
-			(at 214.63 69.8499 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BSS123"
-			(at 214.63 72.3899 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 213.36 73.025 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-			)
-		)
-		(property "Datasheet" "http://www.diodes.com/assets/Datasheets/ds30366.pdf"
-			(at 213.36 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Description" "0.17A Id, 100V Vds, N-Channel MOSFET, SOT-23"
-			(at 208.28 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C8491"
-			(at 208.28 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "LBSS123LT1G"
-			(at 208.28 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "95d4264b-daec-4879-bdee-12f401e98d46")
-		)
-		(pin "1"
-			(uuid "aacca46a-1b78-41e1-a949-5e2e5e9d2999")
-		)
-		(pin "3"
-			(uuid "898c8f2c-cf00-4da6-82b0-462c5062e6d2")
-		)
-		(instances
-			(project "E-Bike PCB"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -4184,7 +2657,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "53ff4a25-2f10-4fac-b190-9981f06aa6e4")
+			(uuid "fabe5188-8caa-4df2-8927-48fdb638fa04")
 		)
 		(instances
 			(project "E-Bike PCB"
@@ -4262,90 +2735,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c06bfe94-965b-4ce2-bb03-39f79d41e4a6")
+			(uuid "5e702d06-cc71-4ee2-8a20-aab79ed42e4f")
 		)
 		(instances
 			(project "E-Bike PCB"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 210.82 87.63 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7c555cc-8a6b-4329-9da0-bb27c23cb88d")
-		(property "Reference" "#PWR015"
-			(at 210.82 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 210.82 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 210.82 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 210.82 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 210.82 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c01fd869-2842-42d2-982c-67d5b0759c7f")
-		)
-		(instances
-			(project "E-Bike PCB"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -4418,194 +2813,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1b2df49-c90f-4a58-9fbb-38cbb9cc3637")
+			(uuid "24fde658-82de-4073-93e7-623d32c8141d")
 		)
 		(instances
 			(project "E-Bike PCB"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
 					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 251.46 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b550f4ad-027a-4ed0-b65b-15459ac1ccdb")
-		(property "Reference" "#PWR04"
-			(at 251.46 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 251.46 43.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 251.46 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aba5e1d1-809b-49c6-bd54-a14a42797fc1")
-		)
-		(instances
-			(project "E-Bike PCB"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 198.12 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef85aaf9-06ab-407f-aade-8e3abfbf1e15")
-		(property "Reference" "R4"
-			(at 200.66 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 200.66 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 196.342 74.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 198.12 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 100kΩ 100mW 75V Thick Film Resistor ±1% ±100ppm/℃ 0603 Chip Resistor - Surface Mount ROHS"
-			(at 198.12 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C25803"
-			(at 198.12 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "0603WAF1003T5E"
-			(at 198.12 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f39c2fd1-3aaa-42a1-9302-8f904c7d5b8e")
-		)
-		(pin "1"
-			(uuid "4f04bb38-465c-43b3-a98c-6244a006e40c")
-		)
-		(instances
-			(project "E-Bike PCB"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e/e744f3ce-03a6-44a6-8792-1447ef232b9a"
-					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4703,20 +2916,42 @@
 				)
 			)
 		)
+		(property "Config" ""
+			(at 261.62 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CBG322513U601T"
+			(at 261.62 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
-			(uuid "d8658c5e-35db-4419-8599-21b952d15f22")
+			(uuid "8bcae39a-23bd-43ee-a11f-0a6d08f69c9d")
 		)
 		(pin "2"
-			(uuid "280745a1-b81a-4757-9e59-4ec51e300ed0")
+			(uuid "e05cdc89-acdf-47df-a568-f4125835ca3c")
 		)
 		(pin "3"
-			(uuid "60d8d718-5885-46ac-a832-ba5c39526211")
+			(uuid "fe382fb8-192d-4c52-8d2e-ea1ce53f98f9")
 		)
 		(pin "4"
-			(uuid "2ad10976-2c40-494f-985b-21caa608b11d")
+			(uuid "640a77b8-7748-42b8-b681-73d9d1937026")
 		)
 		(pin "5"
-			(uuid "599416d9-7f28-420a-bfc3-70c1fd695f29")
+			(uuid "2cec1368-0d9e-43aa-829b-cf139c9f9308")
 		)
 		(instances
 			(project "E-Bike PCB"

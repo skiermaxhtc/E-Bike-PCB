@@ -12,9 +12,9 @@
 	)
 	(lib_symbols)
 	(arc
-		(start 185.42 85.09)
-		(mid 185.0451 85.9851)
-		(end 184.15 86.36)
+		(start 158.75 72.39)
+		(mid 158.3751 73.2851)
+		(end 157.48 73.66)
 		(stroke
 			(width 0)
 			(type default)
@@ -25,9 +25,9 @@
 		(uuid "13e3bc56-4a98-40ef-8c39-3b21620a792f")
 	)
 	(arc
-		(start 234.97 124.44)
-		(mid 234.0749 124.0651)
-		(end 233.7 123.17)
+		(start 157.46 111.78)
+		(mid 158.3551 112.1549)
+		(end 158.73 113.05)
 		(stroke
 			(width 0)
 			(type default)
@@ -38,9 +38,9 @@
 		(uuid "19c30b2f-1391-4be0-8a5f-17a3226c0876")
 	)
 	(arc
-		(start 185.42 161.29)
-		(mid 186.3151 161.6649)
-		(end 186.69 162.56)
+		(start 158.75 148.59)
+		(mid 159.6451 148.9649)
+		(end 160.02 149.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -51,9 +51,9 @@
 		(uuid "1ad3675e-806e-40df-9e6a-8f3936e35a39")
 	)
 	(arc
-		(start 295.93 206.99)
-		(mid 295.1861 208.7861)
-		(end 293.39 209.53)
+		(start 267.99 194.29)
+		(mid 267.2461 196.0861)
+		(end 265.45 196.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -64,9 +64,9 @@
 		(uuid "30e37891-6fb2-42e7-89fc-3ad52327b7fb")
 	)
 	(arc
-		(start 186.69 160.02)
-		(mid 186.3151 160.9151)
-		(end 185.42 161.29)
+		(start 160.02 147.32)
+		(mid 159.6451 148.2151)
+		(end 158.75 148.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -77,9 +77,9 @@
 		(uuid "33269970-3fe2-445a-acf0-038ba414b1af")
 	)
 	(arc
-		(start 293.37 146.05)
-		(mid 295.1602 146.7998)
-		(end 295.91 148.59)
+		(start 264.16 133.35)
+		(mid 265.9502 134.0998)
+		(end 266.7 135.89)
 		(stroke
 			(width 0)
 			(type default)
@@ -90,9 +90,9 @@
 		(uuid "3b9b3aa5-ba6b-439f-aabf-eccf1073094b")
 	)
 	(arc
-		(start 233.7 125.71)
-		(mid 234.0749 124.8149)
-		(end 234.97 124.44)
+		(start 158.73 110.51)
+		(mid 158.3551 111.4051)
+		(end 157.46 111.78)
 		(stroke
 			(width 0)
 			(type default)
@@ -103,9 +103,9 @@
 		(uuid "5b059745-d833-4f9d-9745-ec7a90904541")
 	)
 	(arc
-		(start 295.91 173.99)
-		(mid 295.1661 175.7861)
-		(end 293.37 176.53)
+		(start 266.7 161.29)
+		(mid 265.9561 163.0861)
+		(end 264.16 163.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -116,9 +116,9 @@
 		(uuid "5b0e2eaf-890c-44d5-94eb-a820dd49c26f")
 	)
 	(arc
-		(start 233.7 134.6)
-		(mid 232.9561 136.3961)
-		(end 231.16 137.14)
+		(start 158.73 101.62)
+		(mid 159.4739 99.8239)
+		(end 161.27 99.08)
 		(stroke
 			(width 0)
 			(type default)
@@ -129,9 +129,9 @@
 		(uuid "62bb3cd5-23b6-4c8e-a8f2-a293aca5d83b")
 	)
 	(arc
-		(start 186.69 148.59)
-		(mid 187.4339 146.7939)
-		(end 189.23 146.05)
+		(start 160.02 135.89)
+		(mid 160.7639 134.0939)
+		(end 162.56 133.35)
 		(stroke
 			(width 0)
 			(type default)
@@ -142,9 +142,9 @@
 		(uuid "71db0002-afd6-48fc-b0dc-3228c701ab8f")
 	)
 	(arc
-		(start 293.39 184.13)
-		(mid 295.1802 184.8798)
-		(end 295.93 186.67)
+		(start 265.45 171.43)
+		(mid 267.2402 172.1798)
+		(end 267.99 173.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -155,9 +155,9 @@
 		(uuid "76a009d6-1a9c-4da7-a770-bc88253e8263")
 	)
 	(arc
-		(start 184.15 86.36)
-		(mid 185.0451 86.7349)
-		(end 185.42 87.63)
+		(start 157.48 73.66)
+		(mid 158.3751 74.0349)
+		(end 158.75 74.93)
 		(stroke
 			(width 0)
 			(type default)
@@ -168,9 +168,9 @@
 		(uuid "787eda22-1bf9-4d1b-96b2-11995bb2af0f")
 	)
 	(arc
-		(start 187.96 101.6)
-		(mid 186.1698 100.8502)
-		(end 185.42 99.06)
+		(start 161.29 88.9)
+		(mid 159.4998 88.1502)
+		(end 158.75 86.36)
 		(stroke
 			(width 0)
 			(type default)
@@ -181,9 +181,9 @@
 		(uuid "7c454724-851d-42c5-8823-df570c1fc5eb")
 	)
 	(arc
-		(start 295.93 198.1)
-		(mid 296.3049 197.2049)
-		(end 297.2 196.83)
+		(start 267.99 185.4)
+		(mid 268.3649 184.5049)
+		(end 269.26 184.13)
 		(stroke
 			(width 0)
 			(type default)
@@ -194,9 +194,9 @@
 		(uuid "7ea79e0e-bfa9-412c-8ae7-14ec49696e30")
 	)
 	(arc
-		(start 231.16 111.74)
-		(mid 232.9502 112.4898)
-		(end 233.7 114.28)
+		(start 161.27 124.48)
+		(mid 159.4798 123.7302)
+		(end 158.73 121.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -207,9 +207,9 @@
 		(uuid "94ad6bc3-4505-4c4a-89fc-83d0c51dd562")
 	)
 	(arc
-		(start 297.2 196.83)
-		(mid 296.3049 196.4551)
-		(end 295.93 195.56)
+		(start 269.26 184.13)
+		(mid 268.3649 183.7551)
+		(end 267.99 182.86)
 		(stroke
 			(width 0)
 			(type default)
@@ -220,9 +220,9 @@
 		(uuid "98d6dc77-7c5c-4cca-9a1b-1fd21dabde9b")
 	)
 	(arc
-		(start 297.18 161.29)
-		(mid 296.2849 160.9151)
-		(end 295.91 160.02)
+		(start 267.97 148.59)
+		(mid 267.0749 148.2151)
+		(end 266.7 147.32)
 		(stroke
 			(width 0)
 			(type default)
@@ -233,9 +233,9 @@
 		(uuid "9aced5ff-66ad-47c1-8ac6-8f8ffaebf282")
 	)
 	(arc
-		(start 189.23 176.53)
-		(mid 187.4398 175.7802)
-		(end 186.69 173.99)
+		(start 162.56 163.83)
+		(mid 160.7698 163.0802)
+		(end 160.02 161.29)
 		(stroke
 			(width 0)
 			(type default)
@@ -246,9 +246,9 @@
 		(uuid "9d0a30b9-f291-4114-a91c-e8ce54e1118e")
 	)
 	(arc
-		(start 295.91 162.56)
-		(mid 296.2849 161.6649)
-		(end 297.18 161.29)
+		(start 266.7 149.86)
+		(mid 267.0749 148.9649)
+		(end 267.97 148.59)
 		(stroke
 			(width 0)
 			(type default)
@@ -259,9 +259,9 @@
 		(uuid "c491156e-e654-4384-9bc0-00fb3139aea4")
 	)
 	(arc
-		(start 185.42 73.66)
-		(mid 186.1639 71.8639)
-		(end 187.96 71.12)
+		(start 158.75 60.96)
+		(mid 159.4939 59.1639)
+		(end 161.29 58.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -271,9 +271,9 @@
 		)
 		(uuid "fda911f3-adb3-4abb-981f-a877a93c831b")
 	)
-	(text "Page 9"
+	(text "Page 8"
 		(exclude_from_sim no)
-		(at 288.29 205.74 0)
+		(at 260.35 193.04 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -281,13 +281,27 @@
 				(color 100 70 50 1)
 			)
 			(justify right bottom)
-			(href "#5")
+			(href "#8")
 		)
 		(uuid "66f02a43-654e-4000-8b41-e36a9fd74b3e")
 	)
+	(text "Page 4"
+		(exclude_from_sim no)
+		(at 199.39 120.65 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+				(color 100 70 50 1)
+			)
+			(justify right bottom)
+			(href "#4")
+		)
+		(uuid "b60ecde0-2a85-4071-a728-47148cd80779")
+	)
 	(text "Page 5"
 		(exclude_from_sim no)
-		(at 226.06 133.35 0)
+		(at 260.35 120.65 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -297,11 +311,11 @@
 			(justify right bottom)
 			(href "#5")
 		)
-		(uuid "b60ecde0-2a85-4071-a728-47148cd80779")
+		(uuid "c31d6a09-3ffc-4cd2-8e9c-73a4ac19edec")
 	)
-	(text "Page 8"
+	(text "Page 6"
 		(exclude_from_sim no)
-		(at 227.33 170.18 0)
+		(at 200.66 157.48 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -309,13 +323,13 @@
 				(color 20 60 40 1)
 			)
 			(justify right bottom)
-			(href "#4")
+			(href "#6")
 		)
 		(uuid "e2355c6e-f2e2-4455-96a6-f1fd4eabdd7d")
 	)
-	(text "Page 4"
+	(text "Page 9"
 		(exclude_from_sim no)
-		(at 226.06 95.25 0)
+		(at 199.39 82.55 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -323,13 +337,13 @@
 				(color 20 60 40 1)
 			)
 			(justify right bottom)
-			(href "#4")
+			(href "#9")
 		)
 		(uuid "f04f874a-d252-4474-87f2-c34bbb094a4c")
 	)
-	(text "Page 10"
+	(text "Page 7"
 		(exclude_from_sim no)
-		(at 289.56 170.18 0)
+		(at 260.35 157.48 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -337,13 +351,13 @@
 				(color 20 60 40 1)
 			)
 			(justify right bottom)
-			(href "#4")
+			(href "#7")
 		)
 		(uuid "fd90f9cd-3d75-4fdb-8220-72dd9281c79b")
 	)
 	(text_box "MCU"
 		(exclude_from_sim no)
-		(at 166.37 83.82 0)
+		(at 139.7 71.12 0)
 		(size 17.145 6.4236)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -366,7 +380,7 @@
 	)
 	(text_box "Power"
 		(exclude_from_sim no)
-		(at 234.95 121.92 0)
+		(at 132.08 107.95 0)
 		(size 26.015 6.4236)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -383,13 +397,13 @@
 				(bold yes)
 				(color 0 0 0 1)
 			)
-			(justify left top)
+			(justify right top)
 		)
 		(uuid "97bb5e92-ab26-4907-9b80-08d49465fc86")
 	)
 	(text_box "All outside outputs controls"
 		(exclude_from_sim no)
-		(at 297.18 194.31 0)
+		(at 269.24 181.61 0)
 		(size 26.015 12.5575)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -412,7 +426,7 @@
 	)
 	(text_box "INPUT\nConnectors from Peripherals"
 		(exclude_from_sim no)
-		(at 156.845 154.1128 0)
+		(at 130.175 141.4128 0)
 		(size 27.305 15.6244)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -435,7 +449,7 @@
 	)
 	(text_box "OUTPUT Connectors to MZ7280"
 		(exclude_from_sim no)
-		(at 297.815 154.1128 0)
+		(at 268.605 141.4128 0)
 		(size 23.495 15.6244)
 		(margins 1.4287 1.4287 1.4287 1.4287)
 		(stroke
@@ -481,7 +495,7 @@
 	)
 	(polyline
 		(pts
-			(xy 186.69 162.56) (xy 186.69 173.99)
+			(xy 160.02 149.86) (xy 160.02 161.29)
 		)
 		(stroke
 			(width 0)
@@ -491,7 +505,7 @@
 	)
 	(polyline
 		(pts
-			(xy 295.91 162.56) (xy 295.91 173.99)
+			(xy 266.7 149.86) (xy 266.7 161.29)
 		)
 		(stroke
 			(width 0)
@@ -501,7 +515,7 @@
 	)
 	(polyline
 		(pts
-			(xy 295.91 198.12) (xy 295.91 207.01)
+			(xy 267.97 185.42) (xy 267.97 194.31)
 		)
 		(stroke
 			(width 0)
@@ -511,7 +525,7 @@
 	)
 	(polyline
 		(pts
-			(xy 295.91 186.69) (xy 295.91 195.58)
+			(xy 267.97 173.99) (xy 267.97 182.88)
 		)
 		(stroke
 			(width 0)
@@ -521,7 +535,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 87.63) (xy 185.42 99.06)
+			(xy 158.75 74.93) (xy 158.75 86.36)
 		)
 		(stroke
 			(width 0)
@@ -531,7 +545,7 @@
 	)
 	(polyline
 		(pts
-			(xy 233.68 125.73) (xy 233.68 134.62)
+			(xy 158.75 110.49) (xy 158.75 101.6)
 		)
 		(stroke
 			(width 0)
@@ -541,7 +555,7 @@
 	)
 	(polyline
 		(pts
-			(xy 185.42 85.09) (xy 185.42 73.66)
+			(xy 158.75 72.39) (xy 158.75 60.96)
 		)
 		(stroke
 			(width 0)
@@ -551,7 +565,7 @@
 	)
 	(polyline
 		(pts
-			(xy 233.68 114.3) (xy 233.68 123.19)
+			(xy 158.75 121.92) (xy 158.75 113.03)
 		)
 		(stroke
 			(width 0)
@@ -561,7 +575,7 @@
 	)
 	(polyline
 		(pts
-			(xy 186.69 160.02) (xy 186.69 148.59)
+			(xy 160.02 147.32) (xy 160.02 135.89)
 		)
 		(stroke
 			(width 0)
@@ -571,7 +585,7 @@
 	)
 	(polyline
 		(pts
-			(xy 295.91 160.02) (xy 295.91 148.59)
+			(xy 266.7 147.32) (xy 266.7 135.89)
 		)
 		(stroke
 			(width 0)
@@ -580,7 +594,7 @@
 		(uuid "e2e59b08-af11-4ac1-a202-dba3efd34361")
 	)
 	(sheet
-		(at 191.77 151.13)
+		(at 165.1 138.43)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -596,7 +610,7 @@
 		)
 		(uuid "76422df0-9ee9-4880-88c2-4eb36f6e5b44")
 		(property "Sheetname" "INPUT CONNECTORS"
-			(at 191.77 150.1009 0)
+			(at 165.1 137.4009 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -608,7 +622,55 @@
 			)
 		)
 		(property "Sheetfile" "Section C - Title C.kicad_sch"
-			(at 191.77 172.0346 0)
+			(at 165.1 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "E-Bike PCB"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 173.99)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 53 252 0.5019607843)
+		)
+		(uuid "e372bc42-90b1-4531-8ccd-edb0ba842195")
+		(property "Sheetname" "PERIPHERALS"
+			(at 224.79 172.9609 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Section D - TItle D.kicad_sch"
+			(at 224.79 194.8946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -628,7 +690,7 @@
 		)
 	)
 	(sheet
-		(at 252.73 186.69)
+		(at 163.83 101.6)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -640,11 +702,11 @@
 			(type solid)
 		)
 		(fill
-			(color 255 53 252 0.5019607843)
+			(color 255 200 0 0.502)
 		)
-		(uuid "e372bc42-90b1-4531-8ccd-edb0ba842195")
-		(property "Sheetname" "PERIPHERALS"
-			(at 252.73 185.6609 0)
+		(uuid "e744f3ce-03a6-44a6-8792-1447ef232b9a")
+		(property "Sheetname" "POWER - CONTROL"
+			(at 163.83 100.5709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -655,8 +717,104 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Section D - TItle D.kicad_sch"
-			(at 252.73 207.5946 0)
+		(property "Sheetfile" "Section B - TItle B.kicad_sch"
+			(at 163.83 122.5046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "E-Bike PCB"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 224.79 138.43)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 58 116 58 0.5019607843)
+		)
+		(uuid "e7f8af7d-cb5a-4474-aed8-93ee253ee186")
+		(property "Sheetname" "OUTPUT CONNECTORS"
+			(at 224.79 137.4009 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Section E - Title E.kicad_sch"
+			(at 224.79 159.3346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(face "Arial")
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "E-Bike PCB"
+				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 163.83 63.5)
+		(size 36.83 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 38 42 0.5019607843)
+		)
+		(uuid "f06537ee-772d-44d3-8c50-e0ba41038c9c")
+		(property "Sheetname" "MCU"
+			(at 163.83 62.4709 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.905 1.905)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Section A - Title A.kicad_sch"
+			(at 163.83 84.4046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -676,7 +834,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 114.3)
+		(at 224.79 101.6)
 		(size 36.83 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -690,9 +848,9 @@
 		(fill
 			(color 255 200 0 0.502)
 		)
-		(uuid "e744f3ce-03a6-44a6-8792-1447ef232b9a")
-		(property "Sheetname" "POWER"
-			(at 190.5 113.2709 0)
+		(uuid "fecd39cd-afa3-4500-80fb-f31c79143309")
+		(property "Sheetname" "POWER - GENERATE"
+			(at 224.79 100.5709 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -703,8 +861,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Section B - TItle B.kicad_sch"
-			(at 190.5 135.2046 0)
+		(property "Sheetfile" "Section F - TItle F.kicad_sch"
+			(at 224.79 122.5046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -719,102 +877,6 @@
 			(project "E-Bike PCB"
 				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
 					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 254 151.13)
-		(size 36.83 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 58 116 58 0.5019607843)
-		)
-		(uuid "e7f8af7d-cb5a-4474-aed8-93ee253ee186")
-		(property "Sheetname" "OUTPUT CONNECTORS"
-			(at 254 150.1009 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.905 1.905)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Section E - Title E.kicad_sch"
-			(at 254 172.0346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "E-Bike PCB"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 190.5 76.2)
-		(size 36.83 20.32)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 38 42 0.5019607843)
-		)
-		(uuid "f06537ee-772d-44d3-8c50-e0ba41038c9c")
-		(property "Sheetname" "MCU"
-			(at 190.5 75.1709 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.905 1.905)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Section A - Title A.kicad_sch"
-			(at 190.5 97.1046 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(face "Arial")
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "E-Bike PCB"
-				(path "/f9e05184-c88b-4a88-ae9c-ab2bdb32be7c/c5103ceb-5325-4a84-a025-9638a412984e"
-					(page "4")
 				)
 			)
 		)

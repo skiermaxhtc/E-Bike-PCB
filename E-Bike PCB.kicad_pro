@@ -3,6 +3,8 @@
     "3dviewports": [],
     "design_settings": {
       "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
         "apply_defaults_to_fp_fields": false,
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
@@ -48,7 +50,23 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.0,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -69,16 +87,20 @@
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
         "courtyards_overlap": "error",
+        "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -89,9 +111,12 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
         "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
         "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
@@ -103,12 +128,18 @@
         "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "ignore",
+        "text_on_edge_cuts": "error",
         "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
+        "track_angle": "error",
         "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
+        "track_segment_length": "error",
         "track_width": "error",
         "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
@@ -119,6 +150,7 @@
         "min_clearance": 0.2,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
+        "min_groove_width": 0.0,
         "min_hole_clearance": 0.254,
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
@@ -138,16 +170,17 @@
       },
       "teardrop_options": [
         {
-          "td_onpadsmd": true,
+          "td_onpthpad": true,
           "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
-          "td_onviapad": true
+          "td_onvia": true
         }
       ],
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -158,7 +191,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -169,7 +202,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 5,
+          "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -929,7 +962,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -962,10 +995,10 @@
           "group_by": false,
           "label": "Manufacturer",
           "name": "Manufacturer",
-          "show": true
+          "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Manufacturer Part Number",
           "name": "Manufacturer Part Number",
           "show": true
@@ -975,14 +1008,20 @@
           "label": "Config",
           "name": "Config",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPCB Part #",
+          "name": "JLCPCB Part #",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_asc": false,
+      "sort_field": "Reference"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -1032,7 +1071,7 @@
         "uuid": "f9e05184-c88b-4a88-ae9c-ab2bdb32be7c"
       }
     ],
-    "used_designators": "",
+    "used_designators": "R3-4,R9,J1,J3-4,J9-10,J12-13,J17,#PWR4,#PWR6,#PWR15-17,#PWR30,Q3-5",
     "variants": []
   },
   "sheets": [
@@ -1049,12 +1088,28 @@
       "Project Architecture"
     ],
     [
-      "f06537ee-772d-44d3-8c50-e0ba41038c9c",
-      "MCU"
+      "e744f3ce-03a6-44a6-8792-1447ef232b9a",
+      "POWER - CONTROL"
     ],
     [
-      "e744f3ce-03a6-44a6-8792-1447ef232b9a",
-      "POWER"
+      "fecd39cd-afa3-4500-80fb-f31c79143309",
+      "POWER - GENERATE"
+    ],
+    [
+      "76422df0-9ee9-4880-88c2-4eb36f6e5b44",
+      "INPUT CONNECTORS"
+    ],
+    [
+      "e7f8af7d-cb5a-4474-aed8-93ee253ee186",
+      "OUTPUT CONNECTORS"
+    ],
+    [
+      "e372bc42-90b1-4531-8ccd-edb0ba842195",
+      "PERIPHERALS"
+    ],
+    [
+      "f06537ee-772d-44d3-8c50-e0ba41038c9c",
+      "MCU"
     ],
     [
       "5fb05893-0da3-4f58-a52b-cb6d6f4cb80b",
@@ -1063,18 +1118,6 @@
     [
       "6e125bd6-2f99-4e5d-b3ea-4899f4540739",
       "Revision History"
-    ],
-    [
-      "76422df0-9ee9-4880-88c2-4eb36f6e5b44",
-      "INPUT CONNECTORS"
-    ],
-    [
-      "e372bc42-90b1-4531-8ccd-edb0ba842195",
-      "PERIPHERALS"
-    ],
-    [
-      "e7f8af7d-cb5a-4474-aed8-93ee253ee186",
-      "OUTPUT CONNECTORS"
     ]
   ],
   "text_variables": {
